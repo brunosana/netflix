@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Routes from './routes';
 import './App.css';
 
 class App extends Component {
@@ -9,8 +10,8 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <h1>Salve</h1>
+      <div className="app">
+        <Routes />
       </div>
     );
   }

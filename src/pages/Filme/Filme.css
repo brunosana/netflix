@@ -1,0 +1,9 @@
+.movie{
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+}
+
+.movie img{
+    border-radius: 50px;
+}
