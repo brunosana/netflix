@@ -12,7 +12,13 @@ class Header extends Component{
     render(){
         return(
             <div className="header" >
-                <Link to="/" >HEADER</Link>
+                <Link className="title" to="/" >BRUNOFLIX</Link>
+                <div className="menu" >
+                    <Link className="menuItem" to="/" >Home</Link>
+                    <Link className="menuItem" to="/" >Filmes</Link>
+                    <Link className="menuItem" to="/" >Series</Link>
+                    <Link className="menuItem" to="/" >Sobre</Link>
+                </div>
             </div>
         );
     }

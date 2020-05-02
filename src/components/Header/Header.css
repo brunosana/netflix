@@ -1,15 +1,37 @@
 .header{
+    position: fixed;
+    top: 0;
     display: flex;
     width: 100%;
-    height: 50px;
-    justify-content: center;
+    height: 70px;
+    background-image: linear-gradient(black, rgba(0,0,0,0));
     align-items: center;
-    background-color: brown;
+    z-index: 1;
 }
 
-.header a{
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 35px;
     text-decoration: none;
-    font-size: 30px;
-    color: white;
+    font-size: 27px;
+    color: #E50914;
     cursor: pointer;
+}
+
+.menu{
+    margin-left: 20px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.menuItem{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.menuItem:hover{
+    color: #ddd;
 }
